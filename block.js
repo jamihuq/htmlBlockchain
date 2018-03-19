@@ -68,7 +68,7 @@ let date = new Date();
 
 let blockCoin = new Blockchain();
 for(let index = 1; index < maxValueCoin; index++) {
-	blockCoin.addBlock(new Block(index, date, dataFile));
+	blockCoin.addBlock(new Block(index, date, {dataFile: Math.floor(Math.random()*maxValueCoin);}));
 }
 
 
