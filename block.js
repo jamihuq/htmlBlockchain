@@ -74,4 +74,5 @@ for(let index = 1; index < maxValueCoin; index++) {
 
 
 console.log(blockCoin.chain[1]);
+console.log(blockCoin.chain[1].getData());
 console.log(blockCoin.chain[2]);
