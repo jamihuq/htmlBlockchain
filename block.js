@@ -63,7 +63,7 @@ class Blockchain {
 }
 
 const maxValueCoin = 100;
-let dataFile = Math.floor(Math.random()*maxValueCoin);
+//let dataFile = Math.floor(Math.random()*maxValueCoin);
 let date = new Date();
 
 let blockCoin = new Blockchain();
